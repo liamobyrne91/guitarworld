@@ -1,0 +1,206 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0;
+	margin-bottom:0;
+	overflow-y:scroll;
+}
+a {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	text-decoration:none;
+	color:#000000;
+	font-weight:bold;
+}
+h1 {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+}
+h2 {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+}
+p {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
+em {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#FFFFFF;
+}
+label {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
+#container {
+	width:800px;
+	border:1px solid #000000;
+}
+header {
+	background-color:#000000;
+}
+strong {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
+#logo {
+	background-image:url(../images/logo.png);
+	background-repeat:no-repeat;
+	width:800px;
+	height:100px;
+}
+nav ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+nav ul ul {
+	display:none;
+	position:absolute;
+	z-index:1;
+}
+nav ul ul li {
+	float:none;
+}
+nav ul li:hover > ul {
+	display:block;
+}
+nav li {
+	float:left;
+	position:relative;
+	border:1px solid #000000;
+}
+nav a:link, nav a:visited {
+	display:block;
+	width:120px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#000000;
+	background-color:#FFFFFF;
+	text-align:center;
+	padding:5px;
+	text-decoration:none;
+}
+nav a:hover, nav a:active {
+	background-color:#000000;
+	color:#FFFFFF;
+}
+#video {
+	width:780px;
+	height:430px;
+}
+#content_index {
+	clear:left;
+	width:780px;
+	height:auto;
+	margin-top:40px;
+	margin-bottom:10px;
+	margin-left:10px;
+	margin-right:10px;
+}
+#content1_guitars {
+	clear:left;
+	width:780px;
+	height:auto;
+	margin-top:40px;
+	margin-bottom:10px;
+	margin-left:10px;
+	margin-right:10px;
+}
+#content2_guitars {
+	width:780px;
+	height:auto;
+	margin:10px;
+}
+.guitars {
+	width:780px;
+	text-align:center;
+}
+#content1_electric {
+	clear:left;
+	width:780px;
+	height:auto;
+	margin-top:40px;
+	margin-bottom:10px;
+	margin-left:10px;
+	margin-right:10px;
+}
+#content2_electric {
+	width:780px;
+	height:auto;
+	margin:10px;
+}
+#content1_acoustic {
+	clear:left;
+	width:780px;
+	height:auto;
+	margin-top:40px;
+	margin-bottom:10px;
+	margin-left:10px;
+	margin-right:10px;
+}
+#content2_acoustic {
+	width:780px;
+	height:auto;
+	margin:10px;
+}
+#content1_register {
+	clear:left;
+	width:780px;
+	height:auto;
+	margin-top:40px;
+	margin-bottom:10px;
+	margin-left:10px;
+	margin-right:10px;
+}
+#content2_register {
+	width:780px;
+	height:auto;
+	margin:10px;
+}
+#content1_shoppingcart {
+	clear:left;
+	width:780px;
+	height:auto;
+	margin-top:40px;
+	margin-bottom:10px;
+	margin-left:10px;
+	margin-right:10px;
+}
+#content2_shoppingcart {
+	width:780px;
+	height:auto;
+	margin:10px;
+}
+#submit {
+	background-color:#000000;
+	color:#FFFFFF;
+	width:auto;
+	padding:5px;
+	border:1px solid #FFFFFF;
+}
+#content1_registered {
+	clear:left;
+	width:780px;
+	height:auto;
+	margin-top:40px;
+	margin-bottom:10px;
+	margin-left:10px;
+	margin-right:10px;
+}
+footer {
+	padding:10px;
+	background-color:#000000;
+	clear:both;
+}
+em.quote {
+	color:#000000;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
